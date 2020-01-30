@@ -21,15 +21,15 @@ console.log(getExtension('some.feature.js'));
 
 
 /* Write a program that replaces every character in a give string with a character that follows 
-it in the alphabet. */
+it in the alphabet. */zzz
 
-const moveCharacter = (str) => 
+const moveCharacter = (str) =>x
     str.split('').map(char =>  /* 'Split' splits string into array of characters. 'map' will change every character in the array with whatever we say. */
         String.fromCharCode(char.charCodeAt(0)+1)).join(''); /*'String.fromCharCode' takes a numerical code from a given string.
                                                                 'charCodeAt(0) returns it from numerical to a string with its value added by 1.
                                                                 'join' joins the string back together. */
-
-    console.log(moveCharacter('abc'));
+x
+    console.log(movxCharacter('abc'));
     console.log(moveCharacter('janko'));
 
 
